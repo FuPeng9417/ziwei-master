@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ziwei-master"
+version = "0.1.0.dev0"
+description = "Auditable Zi Wei Dou Shu chart-engine scaffolding"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
